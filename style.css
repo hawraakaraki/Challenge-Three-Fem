@@ -1,16 +1,4 @@
-:root {
-    --Dark-cyan: hsl(158, 36%, 37%);
-    --Cream: hsl(30, 38%, 92%);
-    --Very-dark-blue: hsl(212, 21%, 14%);
-    --Dark-grayish-blue: hsl(228, 12%, 48%);
-    --White: hsl(0, 0%, 100%);
-    
-}
-body {
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    background-color: hsl(30, 38%, 92%);
-}
+
 * {
     padding: 0;
     margin: 0;
@@ -18,6 +6,11 @@ body {
     -webkit-box-sizing: border-box ;
     -o-box-sizing: border-box ;
     -ms-box-sizing: border-box ;
+}
+body {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(30, 38%, 92%);
 }
 ul {
     list-style: none;
@@ -28,7 +21,7 @@ ul {
     display: flex;
     border-radius: 10px;
     width: 300px;
-   max-width: 100%;
+    max-width: 100%;
     height: 800px;
     flex-direction: column;
     max-width: 100%;
@@ -45,7 +38,7 @@ border-radius: 10px 10px 0 0;
 }
 .content h2 {
  font-weight: 500 ;
-color: var(--Dark-grayish-blue);
+color: hsl(228, 12%, 48%);
 letter-spacing: 4px;
 font-size: 14px;
 margin-bottom: 15px;
@@ -59,11 +52,10 @@ margin-top: 15px;
 margin-bottom: 15px;
 }
 .content p {
-    color: var(--Dark-grayish-blue);
+    color: hsl(212, 21%, 14%);
     line-height:  1.7;
     margin-top: 15px;
     margin-bottom: 15px;
-    ;
 }
  .content ul {
     display: flex;
@@ -72,24 +64,22 @@ margin-bottom: 15px;
     margin-bottom: 15px;
 }
 .content li.new-price {
-    color: var(--Dark-cyan);
+    color: hsl(158, 36%, 37%);
     font-size: 50px;
     font-family: 'Fraunces', serif;
     margin-bottom: 15px;
    margin-top: 15px;
-
-
 }
 .content li.old-price {
 text-decoration: line-through;
-color: var(--Dark-grayish-blue);
+color: hsl(212, 21%, 14%);
 font-size: 18px;
 align-self: center;
 margin-left: 10px;
 }
 .content button {
-    color: var(--White);
-    background-color: var(--Dark-cyan);
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
     padding: 15px ;
     width: 80%;
     border: none; 
@@ -103,7 +93,7 @@ margin-left: 10px;
     transform: translate(-50% , -50%);
 }
 .content button:hover {
-    background-color: var(--Very-dark-blue);
+    background-color: hsl(159, 19%, 29%);
 }
 .content button img {
    margin-right: 10px ;
